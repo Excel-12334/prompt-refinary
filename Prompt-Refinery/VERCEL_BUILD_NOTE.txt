@@ -1,0 +1,6 @@
+# Add to package.json scripts or CI
+
+"vercel-build"
+:
+
+"prisma generate && prisma migrate deploy && next build"
